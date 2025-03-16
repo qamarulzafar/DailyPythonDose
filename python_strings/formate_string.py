@@ -34,6 +34,9 @@ price = 1000.000
 txt = f"The Price is {price:.2f} dollors"
 print(txt)
 
+tax = 1200.0000
+ex = f"The tax is {tax:.3f}"
+print(ex)
 
 # A placeholder can contain Python code, like math operations:
 
