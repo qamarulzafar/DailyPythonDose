@@ -27,6 +27,3 @@ thisdict = {
 }
 thisdict.update({"year": 2020})
 print(thisdict)
-
-
-
