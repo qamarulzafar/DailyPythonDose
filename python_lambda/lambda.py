@@ -40,6 +40,31 @@ def myfunc(n):
   return lambda a : a * n
 
 
+# Example 3: Lambda Function as Argument
+
+# Lambda functions can also be passed inside other functions.
+# If a function multiplies a number by 3, and we use this function with map():
+
+number = [1, 2, 3, 4, 5, 6]
+doubled = list (map(lambda x: x* 3, number))
+
+print(doubled)
+
+
+# Example 4: Conditional Lambda Function
+# An if-else statement can also be used inside a lambda function:
+
+
+
+check_even = lambda x : "Even" if x % 2 == 0 else "odd"
+print(check_even(12))
+
+
+
+
+
+
+
 
 
 
