@@ -159,3 +159,25 @@ b = 200
 
 if b > a:
   pass
+
+
+
+# Example: Student Grading System with Nested Conditions
+
+
+
+marks = int(input("Enter your marks (out of 100): "))
+
+if marks >= 90:
+    if marks >= 95:
+        print("Grade: A+ (Excellent)")
+    else:
+        print("Grade: A (Very Good)")
+elif marks >= 80:
+    print("Grade: B (Good)")
+elif marks >= 70:
+    print("Grade: C (Average)")
+elif marks >= 60:
+    print("Grade: D (Below Average)")
+else:
+    print("Grade: F (Fail)")
