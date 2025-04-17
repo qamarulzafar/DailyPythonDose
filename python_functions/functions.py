@@ -278,3 +278,26 @@ my_function(5, 6, a = 2, b = 3)
 
 
 
+
+def calculate_grade(name, marks, total_marks=100):
+    percentage = (marks / total_marks) * 100
+
+    if percentage >= 90:
+        grade = "A+"
+    elif percentage >= 80:
+        grade = "A"
+    elif percentage >= 70:
+        grade = "B"
+    elif percentage >= 60:
+        grade = "C"
+    elif percentage >= 50:
+        grade = "D"
+    else:
+        grade = "F"
+
+    return f"Student: {name}\nMarks: {marks}/{total_marks}\nPercentage: {percentage:.2f}%\nGrade: {grade}"
+
+# Call the function
+print(calculate_grade("Ali", 87))
+print()
+print(calculate_grade("Sara", 45, 80))
